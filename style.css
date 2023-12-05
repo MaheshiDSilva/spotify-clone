@@ -28,6 +28,8 @@
 .playing{
     width: 75%;
     background-color: rgba(22, 21, 21, 0.945);
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .music-player{
@@ -80,6 +82,9 @@
     background-color: rgb(39, 39, 39);
     overflow: scroll;
 }
+.top-header-gradiant{
+    background-image: linear-gradient(rgba(27,194,60,0.6),rgb(34,32,32));
+}
 .top-header{
     display: flex;
     justify-content: space-between;
@@ -97,4 +102,45 @@
 .data{
     color: white;
     margin-top: 10px;
+}
+.play-buttons{
+    margin: 10px;
+}
+.fa-circle-play{
+    color: #1ed761;
+    font-size: 40px;
+}
+.fa-heart{
+    color: #1ed761; 
+}
+.playing-songs-container{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.songs-container-1{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.song-timer{
+    color: white;
+}
+.icon-music{
+    margin-top: 5px;
+}
+.song-text{
+    font-size: 15px;
+    font-weight: 400;
+}
+.song-details{
+    font-size: 10px;
+    font-weight: 100;
+    opacity: 0.5;
+}
+.song-timer{
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 80px;
 }
